@@ -1,25 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UseStateComponet from './reactHooks/UseStateCompoent';
+import UseEffectComponent from './reactHooks/UseEffectComponent';
+import UseContextComponent from './reactHooks/UseContextComponent';
+import UseRefComponent from './reactHooks/UseRefComponent';
+import Messenger from './reactHooks/useReducer01/Messenger';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <UseStateComponet />
+      <UseEffectComponent /> 
+      <UseContextComponent />
+      <UseRefComponent />*/}
+      <Messenger />
     </div>
+
   );
 }
 
